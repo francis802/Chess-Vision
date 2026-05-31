@@ -126,6 +126,14 @@ Chess-Vision/
 
 ### 1. Install dependencies
 
+Recommended: **Python 3.10+**.
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install the packages directly:
+
 ```bash
 pip install torch torchvision ultralytics opencv-python numpy matplotlib \
             tqdm scikit-learn torchmetrics pillow pycocotools

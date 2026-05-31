@@ -1,0 +1,18 @@
+# Chess-Vision third-party dependencies
+# Recommended: Python 3.10+
+# Install with: pip install -r requirements.txt
+#
+# Versions are intentionally left unpinned. ultralytics pulls in the YOLO
+# (YOLOv8 / YOLO11) tooling used for piece and board detection.
+
+matplotlib
+numpy
+opencv-python
+pillow
+pycocotools
+scikit-learn
+torch
+torchmetrics
+torchvision
+tqdm
+ultralytics
