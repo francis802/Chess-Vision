@@ -1,11 +1,29 @@
-images2/
+# === Project-specific ===
+
+# External dataset (ChessReD2k) — not redistributed in this repo
 images/
+images2/
 yolo_dataset/
 exp10-new/
+annotations.json
 
+# Ultralytics training runs (regenerable training output: plots, batch crops,
+# checkpoints). The final trained weights live in models/.
+runs/
+
+# Default pretrained YOLO weights — auto-downloaded by Ultralytics on demand,
+# not produced by this project.
+yolo11n.pt
+yolov8n.pt
+
+# Locally-trained PyTorch checkpoints (regression / corner / U-Net / Mask R-CNN
+# weights). Regenerable from the notebooks; too large to version here.
 *.pth
 
-annotations.json
+# Jupyter / Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
 
 
 # Byte-compiled / optimized / DLL files

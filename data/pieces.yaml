@@ -1,0 +1,19 @@
+path: piece_dataset
+train: images/train
+val: images/val
+
+nc: 13
+names:
+  - white-pawn
+  - white-rook
+  - white-knight
+  - white-bishop
+  - white-queen
+  - white-king
+  - black-pawn
+  - black-rook
+  - black-knight
+  - black-bishop
+  - black-queen
+  - black-king
+  - empty
